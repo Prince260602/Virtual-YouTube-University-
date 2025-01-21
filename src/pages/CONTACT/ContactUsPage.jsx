@@ -115,7 +115,7 @@ export default function Contact() {
     setResult("Sending...");
 
     const formData = new FormData(event.target);
-    formData.append("access_key", "f4a1814b-741b-4320-996e-6cc50d711831");
+    formData.append("access_key", "ef7d6db9-5581-4525-b98a-ca42fb0056f4");
 
     try {
       const response = await fetch("https://api.web3forms.com/submit", {
